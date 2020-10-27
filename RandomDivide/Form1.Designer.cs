@@ -33,11 +33,12 @@
             this.GroupList = new System.Windows.Forms.ListView();
             this.Class = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Group = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ClassIndex = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Create = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.ClassIndex = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Senior1 = new System.Windows.Forms.Button();
             this.Senior2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // GroupList
@@ -48,7 +49,7 @@
             this.ClassIndex});
             this.GroupList.HideSelection = false;
             this.GroupList.LabelEdit = true;
-            this.GroupList.Location = new System.Drawing.Point(24, 12);
+            this.GroupList.Location = new System.Drawing.Point(12, 12);
             this.GroupList.Name = "GroupList";
             this.GroupList.ShowItemToolTips = true;
             this.GroupList.Size = new System.Drawing.Size(192, 243);
@@ -67,9 +68,13 @@
             // 
             this.Group.Text = "组别";
             // 
+            // ClassIndex
+            // 
+            this.ClassIndex.Text = "班级编号";
+            // 
             // Create
             // 
-            this.Create.Location = new System.Drawing.Point(24, 261);
+            this.Create.Location = new System.Drawing.Point(12, 261);
             this.Create.Name = "Create";
             this.Create.Size = new System.Drawing.Size(192, 23);
             this.Create.TabIndex = 3;
@@ -77,13 +82,9 @@
             this.Create.UseVisualStyleBackColor = true;
             this.Create.Click += new System.EventHandler(this.Create_Click);
             // 
-            // ClassIndex
-            // 
-            this.ClassIndex.Text = "班级编号";
-            // 
             // Senior1
             // 
-            this.Senior1.Location = new System.Drawing.Point(222, 123);
+            this.Senior1.Location = new System.Drawing.Point(222, 33);
             this.Senior1.Name = "Senior1";
             this.Senior1.Size = new System.Drawing.Size(65, 23);
             this.Senior1.TabIndex = 5;
@@ -93,7 +94,7 @@
             // 
             // Senior2
             // 
-            this.Senior2.Location = new System.Drawing.Point(222, 170);
+            this.Senior2.Location = new System.Drawing.Point(222, 84);
             this.Senior2.Name = "Senior2";
             this.Senior2.Size = new System.Drawing.Size(65, 23);
             this.Senior2.TabIndex = 6;
@@ -101,11 +102,21 @@
             this.Senior2.UseVisualStyleBackColor = true;
             this.Senior2.Click += new System.EventHandler(this.Senior2_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(220, 219);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 36);
+            this.label1.TabIndex = 7;
+            this.label1.Text = " 双十中学\r\n网络科技部\r\n  杨承岳";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(299, 296);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Senior2);
             this.Controls.Add(this.Senior1);
             this.Controls.Add(this.Create);
@@ -116,6 +127,7 @@
             this.Name = "Form1";
             this.Text = "班级分组";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -128,6 +140,7 @@
         private System.Windows.Forms.ColumnHeader ClassIndex;
         private System.Windows.Forms.Button Senior1;
         private System.Windows.Forms.Button Senior2;
+        private System.Windows.Forms.Label label1;
     }
 }
 

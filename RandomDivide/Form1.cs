@@ -38,7 +38,12 @@ namespace RandomDivide
         {
             foreach (ListViewItem g in GroupList.Items)
             {
-                if (g.SubItems.Count >1) g.SubItems.RemoveAt(1);
+                if (g.SubItems.Count > 1)
+                {
+                    int sbcount = g.SubItems.Count;
+                    for (int i = 0; i < sbcount-1; i++)
+                        g.SubItems.RemoveAt(1);
+                }
             }
             Random random = new Random();
             int count = GroupList.Items.Count;

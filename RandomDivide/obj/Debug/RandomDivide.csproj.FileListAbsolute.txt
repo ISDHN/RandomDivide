@@ -16,3 +16,12 @@ D:\Chevy\Program\不再维护\RandomDivide\RandomDivide\obj\Debug\RandomDivide.c
 D:\Chevy\Program\不再维护\RandomDivide\RandomDivide\obj\Debug\RandomDivide.csproj.CoreCompileInputs.cache
 D:\Chevy\Program\不再维护\RandomDivide\RandomDivide\obj\Debug\RandomDivide.exe
 D:\Chevy\Program\不再维护\RandomDivide\RandomDivide\obj\Debug\RandomDivide.pdb
+E:\users\isdhn\RandomDivide\RandomDivide\bin\Debug\RandomDivide.exe
+E:\users\isdhn\RandomDivide\RandomDivide\bin\Debug\RandomDivide.pdb
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Debug\RandomDivide.csprojAssemblyReference.cache
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Debug\RandomDivide.Form1.resources
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Debug\RandomDivide.Properties.Resources.resources
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Debug\RandomDivide.csproj.GenerateResource.cache
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Debug\RandomDivide.csproj.CoreCompileInputs.cache
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Debug\RandomDivide.exe
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Debug\RandomDivide.pdb

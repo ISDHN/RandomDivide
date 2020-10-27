@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("RandomDivide")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("随机分组")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RandomDivide")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("杨承岳")]
+[assembly: AssemblyProduct("随机分组")]
+[assembly: AssemblyCopyright("Copyright ©  2020 杨承岳")]
+[assembly: AssemblyTrademark("杨承岳")]
 [assembly: AssemblyCulture("")]
 
 // 将 ComVisible 设置为 false 会使此程序集中的类型
