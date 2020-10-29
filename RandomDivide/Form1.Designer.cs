@@ -39,6 +39,8 @@
             this.Senior1 = new System.Windows.Forms.Button();
             this.Senior2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // GroupList
@@ -84,9 +86,9 @@
             // 
             // Senior1
             // 
-            this.Senior1.Location = new System.Drawing.Point(222, 33);
+            this.Senior1.Location = new System.Drawing.Point(210, 33);
             this.Senior1.Name = "Senior1";
-            this.Senior1.Size = new System.Drawing.Size(65, 23);
+            this.Senior1.Size = new System.Drawing.Size(77, 23);
             this.Senior1.TabIndex = 5;
             this.Senior1.Text = "高一";
             this.Senior1.UseVisualStyleBackColor = true;
@@ -94,9 +96,9 @@
             // 
             // Senior2
             // 
-            this.Senior2.Location = new System.Drawing.Point(222, 84);
+            this.Senior2.Location = new System.Drawing.Point(210, 84);
             this.Senior2.Name = "Senior2";
-            this.Senior2.Size = new System.Drawing.Size(65, 23);
+            this.Senior2.Size = new System.Drawing.Size(77, 23);
             this.Senior2.TabIndex = 6;
             this.Senior2.Text = "高二";
             this.Senior2.UseVisualStyleBackColor = true;
@@ -105,17 +107,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(220, 219);
+            this.label1.Location = new System.Drawing.Point(210, 219);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 36);
             this.label1.TabIndex = 7;
-            this.label1.Text = " 双十中学\r\n网络科技部\r\n  杨承岳";
+            this.label1.Text = "  双十中学\r\n 网络科技部 \r\n   杨承岳";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(210, 128);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(77, 78);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(299, 296);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Senior2);
             this.Controls.Add(this.Senior1);
@@ -126,6 +141,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "班级分组";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,6 +157,7 @@
         private System.Windows.Forms.Button Senior1;
         private System.Windows.Forms.Button Senior2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
