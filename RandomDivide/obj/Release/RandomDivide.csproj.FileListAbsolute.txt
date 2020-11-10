@@ -1,0 +1,9 @@
+E:\users\isdhn\RandomDivide\RandomDivide\bin\Release\RandomDivide.exe
+E:\users\isdhn\RandomDivide\RandomDivide\bin\Release\RandomDivide.pdb
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Release\RandomDivide.csprojAssemblyReference.cache
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Release\RandomDivide.Form1.resources
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Release\RandomDivide.Properties.Resources.resources
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Release\RandomDivide.csproj.GenerateResource.cache
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Release\RandomDivide.csproj.CoreCompileInputs.cache
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Release\RandomDivide.exe
+E:\users\isdhn\RandomDivide\RandomDivide\obj\Release\RandomDivide.pdb

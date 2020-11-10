@@ -54,7 +54,7 @@
             this.GroupList.Location = new System.Drawing.Point(12, 12);
             this.GroupList.Name = "GroupList";
             this.GroupList.ShowItemToolTips = true;
-            this.GroupList.Size = new System.Drawing.Size(192, 243);
+            this.GroupList.Size = new System.Drawing.Size(383, 243);
             this.GroupList.TabIndex = 2;
             this.toolTip1.SetToolTip(this.GroupList, "按\"+\"按钮 添加班级,按\"Delete键\"删除班级。");
             this.GroupList.UseCompatibleStateImageBehavior = false;
@@ -64,11 +64,12 @@
             // Class
             // 
             this.Class.Text = "班级";
-            this.Class.Width = 50;
+            this.Class.Width = 207;
             // 
             // Group
             // 
             this.Group.Text = "组别";
+            this.Group.Width = 100;
             // 
             // ClassIndex
             // 
@@ -78,7 +79,7 @@
             // 
             this.Create.Location = new System.Drawing.Point(12, 261);
             this.Create.Name = "Create";
-            this.Create.Size = new System.Drawing.Size(192, 23);
+            this.Create.Size = new System.Drawing.Size(383, 23);
             this.Create.TabIndex = 3;
             this.Create.Text = "生成";
             this.Create.UseVisualStyleBackColor = true;
@@ -86,7 +87,7 @@
             // 
             // Senior1
             // 
-            this.Senior1.Location = new System.Drawing.Point(210, 33);
+            this.Senior1.Location = new System.Drawing.Point(414, 33);
             this.Senior1.Name = "Senior1";
             this.Senior1.Size = new System.Drawing.Size(77, 23);
             this.Senior1.TabIndex = 5;
@@ -96,7 +97,7 @@
             // 
             // Senior2
             // 
-            this.Senior2.Location = new System.Drawing.Point(210, 84);
+            this.Senior2.Location = new System.Drawing.Point(414, 84);
             this.Senior2.Name = "Senior2";
             this.Senior2.Size = new System.Drawing.Size(77, 23);
             this.Senior2.TabIndex = 6;
@@ -107,18 +108,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(210, 219);
+            this.label1.Location = new System.Drawing.Point(414, 219);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 36);
+            this.label1.Size = new System.Drawing.Size(77, 36);
             this.label1.TabIndex = 7;
             this.label1.Text = "  双十中学\r\n 网络科技部 \r\n   杨承岳";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(210, 128);
+            this.pictureBox1.Location = new System.Drawing.Point(414, 128);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(77, 78);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -129,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(299, 296);
+            this.ClientSize = new System.Drawing.Size(503, 296);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Senior2);

@@ -72,7 +72,7 @@ namespace RandomDivide
             GroupList.Items.Clear();
             for (int i = 0; i < 20; i++)
             {
-                GroupList.Items.Add(ClassNumber + "班");
+                GroupList.Items.Add("高一"+ClassNumber + "班");
 
                 ClassNumber += 1;
             }
@@ -83,12 +83,24 @@ namespace RandomDivide
         {
             ClassNumber = 1;
             GroupList.Items.Clear();
-            for (int i = 0; i < 16; i++)
+            for (int i = 0; i < 10; i++)
             {
-                GroupList.Items.Add(ClassNumber + "班");
-
+                GroupList.Items.Add("高二"+ClassNumber + "班");
                 ClassNumber += 1;
             }
+            GroupList.Items.Add("11,12,20班联合队");
+            GroupList.Items.Add("13,14,15班联合队");
+            ClassNumber += 2;
+            for(int i = 16;i<=19; i++)
+            {
+                GroupList.Items.Add("高二" + i + "班");
+                ClassNumber += 1;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
